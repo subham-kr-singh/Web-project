@@ -55,8 +55,13 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  height: 10%;
 }
-
+.right .img nav .logo {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
 .right .img nav ul {
   display: flex;
   gap: 30px;
@@ -64,31 +69,39 @@ body {
 
 .right .img nav ul li {
   list-style: none;
+}
+
+.right .img nav ul li a {
+  text-decoration: none;
   color: white;
 }
 
 .right .img main {
-  padding: 120px;
-  margin: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 15px;
+  height: 90%;
 }
 
 .right .img main .text {
   font-weight: 500;
   font-size: 30px;
   color: white;
+  height: auto;
+  width: 60%;
+  text-align: center;
 }
 
 .right .img main button {
   height: 50px;
-  width: 100px;
+  width: 120px;
   border-radius: 30px;
   background-color: rgb(30, 125, 234);
   color: white;
   box-shadow: none;
+  border: none;
 }
 
 .right section {
@@ -100,7 +113,19 @@ body {
   align-items: center;
 }
 
-.right section h1 {
+.right section .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.right section .top h1 {
   font-weight: 900;
   font-size: 30px;
+}
+
+.right section .top p {
+  text-align: center;
 }
